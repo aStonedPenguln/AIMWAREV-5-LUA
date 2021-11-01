@@ -22,7 +22,7 @@ local function AddHit(hitPos, type, text)
     table.insert(hitTimes, globals.CurTime());
     table.insert(hitTypes, type);
 	table.insert(hitText, text);
-    hitCount = hitCount + 1;
+    hitCount = hitCount + 2;
 end
 
 local function RemoveHit(index)
